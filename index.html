@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>indexdb example</title>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<body>
+	<h1>Indexed DB</h1>
+	<form class="inputForm">
+	<div id="navbar">
+		<a id="openDatabase">Open database</a>
+		<a id="searchDatabase">Search</a>
+		<a id="deleteData">Delete</a>
+		<a id="editDatabase">Edit</a>
+		<a id="insertIntoDatabase">Insert</a>
+	</div>
+	<div class="dropdownAllFields">
+		<div id="dropdownFields" class="dropdownAllFields-content">
+			<div id="topRow">
+				ID&nbsp :<input type ="text" id="idBox" name="idBox" class="idBox" autofocus/>
+				Name&nbsp :<input type="text" id="nameBox" name="nameBox" />
+			</div>
+			
+			<div id="bottomRow">
+				Age:<input type="text" id="ageBox" name="ageBox" />
+				Email: <input type="text" id="emailBox" name="emailBox"/>
+			</div>
+			<br>
+			<button id="insertDB" type="button">Insert</button>
+		</div>
+	</div>
+	
+	<div class="dropdownSearch">
+		<div id="dropdownSearchFields" class="dropdownSearch-content">
+			ID&nbsp :<input type ="text" id="idSearchBox" name="idSearchBox" value="id" class="idBox"/>
+			<button id="searchDB" type="button">Search</button>
+	</div>
+	
+	<div class="dropdownDelete">
+		<div id="dropdownDeleteFields" class="dropdownDelete-content">
+			ID&nbsp :<input type ="text" id="idDeleteBox" name="idDeleteBox" value="id" class="idBox"/>
+			<button id="deleteDB" type="button">Delete</button>
+	</div>
+	
+	<div class="dropdownEditId">
+		<div id="dropdownEditIdFields" class="dropdownEditId-content">
+			ID&nbsp :<input type ="text" id="idEditIdBox" name="idEditIdBox" value="id" class="idBox"/>
+			<button id="editIdDB" type="button">Edit</button>
+	</div>
+	
+	<div class="dropdownAllFieldsEdit">
+		<div id="dropdownFieldsEdit" class="dropdownAllFieldsEdit-content">
+			<div id="topRow">
+				ID&nbsp :<input type ="text" id="idEditBox" name="idEditBox" class="idBox"/>
+				Name&nbsp :<input type="text" id="nameEditBox" name="nameEditBox" value="name" />
+			</div>
+			
+			<div id="bottomRow">
+				Age:<input type="text" id="ageEditBox" name="ageEditBox" value="age" />
+				Email: <input type="text" id="emailEditBox" name="emailEditBox" value="email" />
+			</div>
+			<br>
+			<button id="saveEditBox" type="button">Save Changes</button>
+			<button id="cancelEditBox" type="button">Cancel</button>
+		</div>
+	</div>
+	
+		<br>
+	<table id="tableData">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Email</th>
+		</tr>
+	</table>
+	</form>
+	<
+	<script src="javaScript.js"></script
+</body>
+</html> 

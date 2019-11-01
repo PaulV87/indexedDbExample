@@ -1,0 +1,175 @@
+form {
+	background-color: #CCC;
+	padding: 8px;
+	border: 1px solid #CCC;
+	width: 100%;
+	
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+input {
+	font: 1em sans-serif;	
+	box-sizing: border-box;
+}
+
+#idBox, #ageBox{
+	width: 50px;
+}
+
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+	padding: 1px;
+}
+
+#tableData {
+	font-family: "Trebuchet MS", Ariel, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+
+#tableData td, #tableData th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tableData tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#tableData tr:hover {
+	background-color: #ddd;
+}
+
+#tableData th {
+	padding-top: 15px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #ccc;
+	color: black;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #aaa;
+	border: 5px solid #c3c3c3;
+	z-index: 2;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+
+/* Drop down boxes */
+
+.dropdownAllFields {
+	position: relative;
+	display: block;
+}
+
+.dropdownAllFields-content {
+	display: none;
+	position: relative;
+	background-color: #ccc;
+	width: 100%;
+	z-index: 1;
+}
+
+
+
+/* Dropdown for search */
+.dropdownSearch {
+	position: relative;
+	display: block;
+
+}
+
+.dropdownSearch-content {
+	display: none;
+	position: relative;
+	background-color: #ccc;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Dropdown for delete */
+.dropdownDelete {
+	position: relative;
+	display: block;
+}
+
+.dropdownDelete-content {
+	display: none;
+	position: relative;
+	background-color: #ccc;
+	width: 100%;
+	z-index: 1;
+}
+
+/* dropdown for edit Id */
+.dropdownEditId {
+	position: relative;
+	display: block;
+}
+
+.dropdownEditId-content {
+	display: none;
+	position: relative;
+	background-color: #ccc;
+	width: 100%;
+	z-index: 1;
+}
+
+
+/* dropdown for edit fields */
+
+.dropdownAllFieldsEdit {
+	position: relative;
+	display: block;
+}
+
+.dropdownAllFieldsEdit-content {
+	display: none;
+	position: relative;
+	background-color: #ccc;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Used to unhide dropdown boxes */
+	
+.show {
+	display: block;
+} 
+
+.hide {
+	display: none;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
